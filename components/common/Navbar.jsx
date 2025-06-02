@@ -84,37 +84,37 @@ function Navbar() {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="/page-about">
-                    About Us
+                    Nosotros
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-services">
-                    Services
+                    Servicios
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-services-details">
-                    Services Details
+                    Detalles de Servicios
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-team">
-                    Our Team
+                    Nuestro Equipo
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-team-details">
-                    Team Details
+                    Detalles del Equipo
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-contact">
-                    Contact Us
+                    Contacto
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/page-FAQ">
-                    FAQS
+                    Preguntas Frecuentes
                   </a>
                 </li>
                 <li>
