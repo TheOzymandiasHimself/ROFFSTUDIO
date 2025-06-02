@@ -20,23 +20,37 @@ function Header() {
   }, []);
   return (
     <div className="header header-personal valign" style={{ position: 'relative', overflow: 'hidden' }}>
-      <video 
-        autoPlay 
-        muted 
-        loop 
-        playsInline
-        style={{
+      {/* Video de fondo solo en desktop, imagen en móvil */}
+      {typeof window !== 'undefined' && /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? (
+        <div style={{
           position: 'absolute',
           width: '100%',
           height: '100%',
-          objectFit: 'cover',
-          zIndex: '-1',
-          filter: 'brightness(0.7)' // Simular el overlay dark
-        }}
-      >
-        <source src="/assets/vids/moltenmetal.mp4" type="video/mp4" />
-        Tu navegador no soporta videos HTML5.
-      </video>
+          backgroundImage: 'url(/assets/imgs/mobile-fallback.jpg.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          zIndex: -1,
+          filter: 'brightness(0.7)'
+        }} />
+      ) : (
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: -1,
+            filter: 'brightness(0.7)'
+          }}
+        >
+          <source src="/assets/vids/moltenmetal.mp4" type="video/mp4" />
+          Tu navegador no soporta videos HTML5.
+        </video>
+      )}
       <div className="container ontop">
         <div className="row">
           <div className="col-lg-7">
