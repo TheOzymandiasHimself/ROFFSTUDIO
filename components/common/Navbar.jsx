@@ -93,18 +93,8 @@ function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/page-services-details">
-                    Detalles de Servicios
-                  </a>
-                </li>
-                <li>
                   <a className="dropdown-item" href="/page-team">
                     Nuestro Equipo
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/page-team-details">
-                    Detalles del Equipo
                   </a>
                 </li>
                 <li>
