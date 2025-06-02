@@ -3,15 +3,19 @@ import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Cursor from '@/components/common/cusor';
 import LoadingScreen from '@/components/common/loader';
-import Demos from '@/components/landing/Demos';
-import Footer from '@/components/landing/Footer';
-import Header from '@/components/landing/Header';
-import Marq from '@/components/landing/Marq';
-import Navbar from '@/components/landing/Navbar';
-import Pages from '@/components/landing/Pages';
-import Show from '@/components/landing/Show';
-import Testimonials from '@/components/landing/Testimonials';
+import Footer from '@/components/common/Footer';
+import Marq2 from '@/components/common/Marq2';
+import Navbar from '@/components/common/Navbar';
+import CompaniesBar from '@/components/common/CompaniesBar';
 import Script from 'next/script';
+import Header from '@/components/home-personal/Header';
+import Clients from '@/components/common/Clients';
+import Marq from '@/components/home-personal/Marq';
+import About from '@/components/home-personal/About';
+import Services from '@/components/home-personal/Services';
+import Skills from '@/components/home-personal/Skills';
+import Portfolio from '@/components/home-personal/Portfolio';
+import { redirect } from 'next/navigation';
 
 export const metadata = {
   title: 'webfolio',
@@ -30,21 +34,24 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <body>
+    <body className="home-personal">
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
       <Lines />
       <Navbar />
+      <CompaniesBar />
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <main>
+          <main className="main-bg o-hidden">
             <Header />
-            <Demos />
-            <Pages />
-            <Show />
             <Marq />
-            <Testimonials />
+            <About />
+            <Services />
+            <Portfolio />
+            <Skills />
+            <Clients />
+            <Marq2 />
           </main>
           <Footer />
         </div>

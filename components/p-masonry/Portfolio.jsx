@@ -11,21 +11,21 @@ function Portfolio() {
         <div className="row mb-80">
           <div className="col-lg-4">
             <div className="sec-head">
-              <h6 className="sub-title main-color mb-10">DISCOVER OUR CASES</h6>
-              <h3>Latest Projects</h3>
+              <h6 className="sub-title main-color mb-10">DESCUBRE NUESTROS CASOS</h6>
+              <h3>Proyectos Recientes</h3>
             </div>
           </div>
           <div className="filtering col-lg-8 d-flex justify-content-end align-items-end">
             <div>
               <div className="filter">
                 <span data-filter="*" className="active" data-count="08">
-                  All
+                  Todos
                 </span>
                 <span data-filter=".design" data-count="03">
-                  Design
+                  Diseño
                 </span>
                 <span data-filter=".development" data-count="02">
-                  Development
+                  Desarrollo
                 </span>
                 <span data-filter=".marketing" data-count="03">
                   Marketing
@@ -44,12 +44,12 @@ function Portfolio() {
                 <div className="cont inline d-flex align-items-center">
                   <div>
                     <h5>
-                      <a href="/project-details">Nice guy with a smile</a>
+                      <a href="/project-details">Diseño moderno con estilo</a>
                     </h5>
                   </div>
                   <div className="ml-auto">
                     <p>
-                      <a href="/project-details">Graphic Designing</a>
+                      <a href="/project-details">Diseño Gráfico</a>
                     </p>
                   </div>
                 </div>
@@ -62,10 +62,10 @@ function Portfolio() {
                 <img src="/assets/imgs/works/4/1.jpg" alt="" />
                 <div className="cont">
                   <h5>
-                    <a href="/project-details">A Nice guy</a>
+                    <a href="/project-details">Proyecto Creativo</a>
                   </h5>
                   <p>
-                    <a href="/project-details">Graphic Design</a>
+                    <a href="/project-details">Diseño Gráfico</a>
                   </p>
                 </div>
               </div>
@@ -77,10 +77,10 @@ function Portfolio() {
                 <img src="/assets/imgs/works/4/2.jpg" alt="" />
                 <div className="cont">
                   <h5>
-                    <a href="/project-details">A Nice guy</a>
+                    <a href="/project-details">Proyecto Creativo</a>
                   </h5>
                   <p>
-                    <a href="/project-details">Graphic Design</a>
+                    <a href="/project-details">Diseño Gráfico</a>
                   </p>
                 </div>
               </div>
@@ -92,10 +92,10 @@ function Portfolio() {
                 <img src="/assets/imgs/works/4/3.jpg" alt="" />
                 <div className="cont">
                   <h5>
-                    <a href="/project-details">A Nice guy</a>
+                    <a href="/project-details">Proyecto Creativo</a>
                   </h5>
                   <p>
-                    <a href="/project-details">Graphic Design</a>
+                    <a href="/project-details">Diseño Gráfico</a>
                   </p>
                 </div>
               </div>
@@ -107,10 +107,10 @@ function Portfolio() {
                 <img src="/assets/imgs/works/4/4.jpg" alt="" />
                 <div className="cont">
                   <h5>
-                    <a href="/project-details">A Nice guy</a>
+                    <a href="/project-details">Proyecto Creativo</a>
                   </h5>
                   <p>
-                    <a href="/project-details">Graphic Design</a>
+                    <a href="/project-details">Diseño Gráfico</a>
                   </p>
                 </div>
               </div>
@@ -123,12 +123,12 @@ function Portfolio() {
                 <div className="cont inline d-flex align-items-center">
                   <div>
                     <h5>
-                      <a href="/project-details">Nice guy with a smile</a>
+                      <a href="/project-details">Diseño moderno con estilo</a>
                     </h5>
                   </div>
                   <div className="ml-auto">
                     <p>
-                      <a href="/project-details">Graphic Designing</a>
+                      <a href="/project-details">Diseño Gráfico</a>
                     </p>
                   </div>
                 </div>
@@ -142,12 +142,12 @@ function Portfolio() {
                 <div className="cont inline d-flex align-items-center">
                   <div>
                     <h5>
-                      <a href="/project-details">Nice guy with a smile</a>
+                      <a href="/project-details">Diseño moderno con estilo</a>
                     </h5>
                   </div>
                   <div className="ml-auto">
                     <p>
-                      <a href="/project-details">Graphic Designing</a>
+                      <a href="/project-details">Diseño Gráfico</a>
                     </p>
                   </div>
                 </div>
@@ -161,12 +161,12 @@ function Portfolio() {
                 <div className="cont inline d-flex align-items-center">
                   <div>
                     <h5>
-                      <a href="/project-details">Nice guy with a smile</a>
+                      <a href="/project-details">Diseño moderno con estilo</a>
                     </h5>
                   </div>
                   <div className="ml-auto">
                     <p>
-                      <a href="/project-details">Graphic Designing</a>
+                      <a href="/project-details">Diseño Gráfico</a>
                     </p>
                   </div>
                 </div>

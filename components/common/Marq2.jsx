@@ -36,13 +36,16 @@ function Marq2() {
           <a href="/page-contact" className="overlay-link"></a>
         </div>
       </div>
-      <div className="main-marq bord-item">
-        <div className="slide-har st2">
+      <div className="main-marq lrg sub-bg pt-20 pb-20">
+        <div className="slide-har st1">
           <div className="box">
             {AllContact.map((item, i) => (
               <div key={i} className="item">
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
+                  <span className="icon-img-50 ml-40">
+                    <img src="/assets/imgs/star.png" alt="" />
+                  </span>
                 </h4>
               </div>
             ))}
@@ -52,6 +55,9 @@ function Marq2() {
               <div key={i} className="item">
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
+                  <span className="icon-img-50 ml-40">
+                    <img src="/assets/imgs/star.png" alt="" />
+                  </span>
                 </h4>
               </div>
             ))}

@@ -30,7 +30,7 @@ function Header() {
           <div className="col-12">
             <div className="text-center">
               <h1 className="text-u ls1 fz-80">
-                Blog <span className="fw-200"> Grid</span>
+                Nuestro <span className="fw-200">Blog</span>
               </h1>
             </div>
           </div>

@@ -92,7 +92,9 @@ function Clients() {
         <div className="sec-bottom mt-100">
           <div className="main-bg d-flex align-items-center">
             <h6 className="fz-14 fw-400">
-              NUESTRO STACK
+              <a href="https://wa.me/+56962655233" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                Contáctanos ya
+              </a>
             </h6>
           </div>
         </div>

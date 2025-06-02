@@ -19,11 +19,24 @@ function Header() {
     loadBackgroudImages();
   }, []);
   return (
-    <div
-      className="header header-personal valign bg-img"
-      data-background="/assets/imgs/header/p0.jpg"
-      data-overlay-dark="2"
-    >
+    <div className="header header-personal valign" style={{ position: 'relative', overflow: 'hidden' }}>
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: '-1',
+          filter: 'brightness(0.7)' // Simular el overlay dark
+        }}
+      >
+        <source src="/assets/vids/moltenmetal.mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </video>
       <div className="container ontop">
         <div className="row">
           <div className="col-lg-7">
@@ -67,15 +80,15 @@ function Header() {
         <div className="info d-flex align-items-center justify-content-end mt-100">
           <div className="item">
             <h6 className="sub-title mb-10">Email :</h6>
-            <span className="p-color">Webfolio.Info@gmail.com</span>
+            <span className="p-color">contacto@roffstudio.cl</span>
           </div>
           <div className="item">
-            <h6 className="sub-title mb-10">Phone :</h6>
-            <span className="p-color">+2 456 (343) 24 45</span>
+            <h6 className="sub-title mb-10">WhatsApp :</h6>
+            <span className="p-color">+56962655233</span>
           </div>
           <div className="item">
-            <h6 className="sub-title mb-10">Address :</h6>
-            <span className="p-color">5919 Trussville Pkwy, Birmingham</span>
+            <h6 className="sub-title mb-10">Ubicación :</h6>
+            <span className="p-color">Santiago, Chile</span>
           </div>
         </div>
       </div>

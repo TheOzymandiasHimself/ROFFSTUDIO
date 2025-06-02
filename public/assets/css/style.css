@@ -1447,14 +1447,14 @@ figure {
 
 .slide-har.st1 .box {
   position: relative;
-  -webkit-animation: slide-har 80s linear infinite;
-  animation: slide-har 80s linear infinite;
+  -webkit-animation: slide-har 27s linear infinite;
+  animation: slide-har 27s linear infinite;
 }
 
 .slide-har.st2 .box {
   position: relative;
-  -webkit-animation: slide-har-revers 80s linear infinite;
-  animation: slide-har-revers 80s linear infinite;
+  -webkit-animation: slide-har-revers 27s linear infinite;
+  animation: slide-har-revers 27s linear infinite;
 }
 
 @-webkit-keyframes slide-har {

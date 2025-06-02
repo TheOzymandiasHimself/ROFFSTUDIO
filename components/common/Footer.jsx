@@ -77,7 +77,7 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2024 ROFF Studio. Todos los derechos reservados.
+              © 2025 ROFF Studio. Todos los derechos reservados.
             </p>
           </div>
         </div>

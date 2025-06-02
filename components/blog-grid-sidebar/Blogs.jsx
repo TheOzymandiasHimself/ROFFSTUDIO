@@ -16,14 +16,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Design Inspiration: Where to Find Creative Ideas
+                        Inspiración de Diseño: Dónde Encontrar Ideas Creativas
                       </h4>
                       <a
                         href="/blog-details"
@@ -34,7 +34,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -47,14 +47,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Typography: Choosing Fonts for Maximum Impact
+                        Tipografía: Eligiendo Fuentes para Máximo Impacto
                       </h4>
                       <a
                         href="/blog-details"
@@ -65,7 +65,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -78,14 +78,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Design Inspiration: Where to Find Creative Ideas
+                        Inspiración de Diseño: Dónde Encontrar Ideas Creativas
                       </h4>
                       <a
                         href="/blog-details"
@@ -96,7 +96,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -109,14 +109,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Typography: Choosing Fonts for Maximum Impact
+                        Tipografía: Eligiendo Fuentes para Máximo Impacto
                       </h4>
                       <a
                         href="/blog-details"
@@ -127,7 +127,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -140,14 +140,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Design Inspiration: Where to Find Creative Ideas
+                        Inspiración de Diseño: Dónde Encontrar Ideas Creativas
                       </h4>
                       <a
                         href="/blog-details"
@@ -158,7 +158,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -171,14 +171,14 @@ function Blogs() {
                     <div className="cont pt-40">
                       <div className="info sub-title p-color d-flex align-items-center mb-15">
                         <div>
-                          <a href="/blog-grid-sidebar">By : Admin</a>
+                          <a href="/blog-grid-sidebar">Por : Admin</a>
                         </div>
                         <div className="ml-30">
-                          <a href="/blog-grid-sidebar">August 14, 2023</a>
+                          <a href="/blog-grid-sidebar">14 de Agosto, 2023</a>
                         </div>
                       </div>
                       <h4 className="fz-30">
-                        Typography: Choosing Fonts for Maximum Impact
+                        Tipografía: Eligiendo Fuentes para Máximo Impacto
                       </h4>
                       <a
                         href="/blog-details"
@@ -189,7 +189,7 @@ function Blogs() {
                             <i className="ti-arrow-top-right"></i>
                           </span>
                         </span>
-                        <span className="text">Read more</span>
+                        <span className="text">Leer más</span>
                       </a>
                     </div>
                   </div>
@@ -200,30 +200,30 @@ function Blogs() {
           <div className="col-lg-4">
             <div className="sidebar">
               <div className="widget">
-                <h6 className="title-widget">Search Here</h6>
+                <h6 className="title-widget">Buscar Aquí</h6>
                 <div className="search-box">
-                  <input type="text" name="search-post" placeholder="Search" />
+                  <input type="text" name="search-post" placeholder="Buscar" />
                   <span className="icon pe-7s-search"></span>
                 </div>
               </div>
               <div className="widget catogry">
-                <h6 className="title-widget">Categories</h6>
+                <h6 className="title-widget">Categorías</h6>
                 <ul className="rest">
                   <li>
                     <span>
-                      <a href="/blog-grid-sidebar">Business</a>
+                      <a href="/blog-grid-sidebar">Negocios</a>
                     </span>
                     <span className="ml-auto">33</span>
                   </li>
                   <li>
                     <span>
-                      <a href="/blog-grid-sidebar">Lifestyle</a>
+                      <a href="/blog-grid-sidebar">Estilo de Vida</a>
                     </span>
                     <span className="ml-auto">05</span>
                   </li>
                   <li>
                     <span>
-                      <a href="/blog-grid-sidebar">Creative</a>
+                      <a href="/blog-grid-sidebar">Creatividad</a>
                     </span>
                     <span className="ml-auto">28</span>
                   </li>
@@ -235,14 +235,14 @@ function Blogs() {
                   </li>
                   <li>
                     <span>
-                      <a href="/blog-grid-sidebar">Design</a>
+                      <a href="/blog-grid-sidebar">Diseño</a>
                     </span>
                     <span className="ml-auto">45</span>
                   </li>
                 </ul>
               </div>
               <div className="widget last-post-thum">
-                <h6 className="title-widget">latest Posts</h6>
+                <h6 className="title-widget">Últimos Artículos</h6>
                 <div className="item d-flex align-items-center">
                   <div>
                     <div className="img">
@@ -258,11 +258,11 @@ function Blogs() {
                   </div>
                   <div className="cont">
                     <span className="tag">
-                      <a href="/blog-grid-sidebar">Web Design</a>
+                      <a href="/blog-grid-sidebar">Diseño Web</a>
                     </span>
                     <h6>
                       <a href="/blog-grid-sidebar">
-                        ways to quickly increase traffic to your website
+                        formas de aumentar rápidamente el tráfico de tu sitio web
                       </a>
                     </h6>
                   </div>
@@ -282,11 +282,11 @@ function Blogs() {
                   </div>
                   <div className="cont">
                     <span className="tag">
-                      <a href="/blog-grid-sidebar">Web Design</a>
+                      <a href="/blog-grid-sidebar">Diseño Web</a>
                     </span>
                     <h6>
                       <a href="/blog-grid-sidebar">
-                        breaking the rules: using sqlite to demo web
+                        rompiendo las reglas: usando SQLite para demostrar web
                       </a>
                     </h6>
                   </div>
@@ -306,23 +306,23 @@ function Blogs() {
                   </div>
                   <div className="cont">
                     <span className="tag">
-                      <a href="/blog-grid-sidebar">Web Design</a>
+                      <a href="/blog-grid-sidebar">Diseño Web</a>
                     </span>
                     <h6>
                       <a href="/blog-grid-sidebar">
-                        building better ui designs with layout grids
+                        construyendo mejores diseños UI con rejillas de layout
                       </a>
                     </h6>
                   </div>
                 </div>
               </div>
               <div className="widget tags">
-                <h6 className="title-widget">Tags</h6>
+                <h6 className="title-widget">Etiquetas</h6>
                 <div>
-                  <a href="/blog-grid-sidebar">Creative</a>
-                  <a href="/blog-grid-sidebar">Design</a>
-                  <a href="/blog-grid-sidebar">Dark & Light</a>
-                  <a href="/blog-grid-sidebar">Minimal</a>
+                  <a href="/blog-grid-sidebar">Creatividad</a>
+                  <a href="/blog-grid-sidebar">Diseño</a>
+                  <a href="/blog-grid-sidebar">Oscuro & Claro</a>
+                  <a href="/blog-grid-sidebar">Minimalista</a>
                   <a href="/blog-grid-sidebar">Infolio</a>
                 </div>
               </div>

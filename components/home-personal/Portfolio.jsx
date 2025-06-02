@@ -246,8 +246,11 @@ function Portfolio() {
       <div className="sec-bottom mt-100">
         <div className="main-bg d-flex align-items-center">
           <h6 className="fz-14 fw-400">
-            More than <span className="fw-600"> 200+ companies</span>
-            trusted us worldwide
+            <a href="https://wa.me/+56962655233" target="_blank" rel="noopener noreferrer">
+              <span style={{ color: '#ffffff' }}>Así es como te</span>
+              <span style={{ margin: '0 2px' }}> </span>
+              <span style={{ color: '#aaaaaa' }}>posicionamos digitalmente</span>
+            </a>
           </h6>
         </div>
       </div>
