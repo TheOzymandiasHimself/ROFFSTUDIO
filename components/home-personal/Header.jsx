@@ -21,36 +21,19 @@ function Header() {
   return (
     <div className="header header-personal valign" style={{ position: 'relative', overflow: 'hidden' }}>
       {/* Video de fondo solo en desktop, imagen en móvil */}
-      {typeof window !== 'undefined' && /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? (
-        <div style={{
+      <iframe
+        src="https://moltensemen.netlify.app/"
+        title="Molten Semen Hypervisor"
+        style={{
           position: 'absolute',
           width: '100%',
           height: '100%',
-          backgroundImage: 'url(/assets/imgs/mobile-fallback.jpg.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          border: 'none',
           zIndex: -1,
           filter: 'brightness(0.7)'
-        }} />
-      ) : (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          style={{
-            position: 'absolute',
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            zIndex: -1,
-            filter: 'brightness(0.7)'
-          }}
-        >
-          <source src="/assets/vids/moltenmetal.mp4" type="video/mp4" />
-          Tu navegador no soporta videos HTML5.
-        </video>
-      )}
+        }}
+        allow="autoplay; fullscreen; picture-in-picture"
+      />
       <div className="container ontop">
         <div className="row">
           <div className="col-lg-7">
