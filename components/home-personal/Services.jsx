@@ -38,7 +38,7 @@ function Services() {
                   <span className="tag">Desarrollo</span>
                 </div>
                 <p>
-                  Siempre nos aseguramos de que combine un diseño visual limpio y atractivo.
+                  Creamos experiencias digitales que definen la identidad visual de tu marca. Nuestro diseño UI/UX combina estética atractiva y funcionalidad intuitiva para conectar con tus usuarios de forma significativa.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">
@@ -54,11 +54,11 @@ function Services() {
               <h5>Estrategia de Marca</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Desarrollo</span>
+                  <span className="tag">Branding</span>
+                  <span className="tag">Estrategia</span>
                 </div>
                 <p>
-                  Siempre nos aseguramos de que combine un diseño visual limpio y atractivo.
+                  Desarrollamos estrategias de marca sólidas que destacan los beneficios de tus productos o servicios. Comunicamos tu propuesta de valor de forma clara y persuasiva para atraer a tu audiencia objetivo.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">
@@ -74,11 +74,11 @@ function Services() {
               <h5>SEO / Marketing</h5>
               <div className="text mt-40">
                 <div className="mb-10">
-                  <span className="tag">UI/UX</span>
-                  <span className="tag">Desarrollo</span>
+                  <span className="tag">SEO</span>
+                  <span className="tag">Marketing</span>
                 </div>
                 <p>
-                  Siempre nos aseguramos de que combine un diseño visual limpio y atractivo.
+                  Potenciamos tu visibilidad online combinando optimización técnica de código con análisis heurístico. Implementamos estrategias SEO/Marketing basadas en datos que generan tráfico cualificado y conversiones.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">

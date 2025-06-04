@@ -22,6 +22,27 @@ export const metadata = {
   },
 };
 
+// Estilos personalizados para alinear correctamente las tarjetas del equipo
+const teamStyles = {
+  teamCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    textAlign: 'center'
+  },
+  teamInfo: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  },
+  teamImg: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center'
+  }
+};
+
 export default function PageTeam() {
   return (
     <body className="home-personal">
@@ -55,94 +76,159 @@ export default function PageTeam() {
                     </div>
                   </div>
                 </div>
-                <div className="row md-marg">
-                  <div className="col-lg-4 col-md-6">
-                    <div className="item mb-30">
-                      <div className="img">
+                {/* Primera fila: 3 miembros */}
+                <div className="row md-marg justify-content-center mb-4">
+                  <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div className="item mb-30" style={teamStyles.teamCard}>
+                      <div className="img" style={teamStyles.teamImg}>
                         <img src="/assets/imgs/team/1.jpg" alt="" />
                       </div>
-                      <div className="info">
+                      <div className="info" style={teamStyles.teamInfo}>
+                        <h5 className="mb-2">Francisca Zambrano</h5>
                         <div className="main-marq team-position">
                           <div className="slide-har st1 non-strok">
                             <div className="box">
                               <div className="items">
                                 <div className="item">
-                                  <h4>Director Creativo</h4>
+                                  <h4>Directora Creativa</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Director Creativo</h4>
+                                  <h4>Directora Creativa</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Director Creativo</h4>
+                                  <h4>Directora Creativa</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Director Creativo</h4>
+                                  <h4>Directora Creativa</h4>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <h5>Alejandro Rojas</h5>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6">
-                    <div className="item mb-30">
-                      <div className="img">
+                  <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div className="item mb-30" style={teamStyles.teamCard}>
+                      <div className="img" style={teamStyles.teamImg}>
                         <img src="/assets/imgs/team/2.jpg" alt="" />
                       </div>
-                      <div className="info">
+                      <div className="info" style={teamStyles.teamInfo}>
+                        <h5 className="mb-2">Oscar Zambrano</h5>
                         <div className="main-marq team-position">
                           <div className="slide-har st1 non-strok">
                             <div className="box">
                               <div className="items">
                                 <div className="item">
-                                  <h4>Desarrollador Web</h4>
+                                  <h4>Desarrollador Creativo</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Desarrollador Web</h4>
+                                  <h4>Desarrollador Creativo</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Desarrollador Web</h4>
+                                  <h4>Desarrollador Creativo</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Desarrollador Web</h4>
+                                  <h4>Desarrollador Creativo</h4>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <h5>Camila Fernández</h5>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6">
-                    <div className="item mb-30">
-                      <div className="img">
+                  <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div className="item mb-30" style={teamStyles.teamCard}>
+                      <div className="img" style={teamStyles.teamImg}>
                         <img src="/assets/imgs/team/3.jpg" alt="" />
                       </div>
-                      <div className="info">
+                      <div className="info" style={teamStyles.teamInfo}>
+                        <h5 className="mb-2">Felipe Lopez</h5>
                         <div className="main-marq team-position">
                           <div className="slide-har st1 non-strok">
                             <div className="box">
                               <div className="items">
                                 <div className="item">
-                                  <h4>Diseñador UI/UX</h4>
+                                  <h4>Desarrollador UX</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Diseñador UI/UX</h4>
+                                  <h4>Desarrollador UX</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Diseñador UI/UX</h4>
+                                  <h4>Desarrollador UX</h4>
                                 </div>
                                 <div className="item">
-                                  <h4>Diseñador UI/UX</h4>
+                                  <h4>Desarrollador UX</h4>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <h5>Matías Lagos</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Segunda fila: 2 miembros */}
+                <div className="row md-marg justify-content-center">
+                  <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div className="item mb-30" style={teamStyles.teamCard}>
+                      <div className="img" style={teamStyles.teamImg}>
+                        <img src="/assets/imgs/team/4.jpg" alt="" />
+                      </div>
+                      <div className="info" style={teamStyles.teamInfo}>
+                        <h5 className="mb-2">Felipe Cabrera</h5>
+                        <div className="main-marq team-position">
+                          <div className="slide-har st1 non-strok">
+                            <div className="box">
+                              <div className="items">
+                                <div className="item">
+                                  <h4>Marketing</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Marketing</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Marketing</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Marketing</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div className="item mb-30" style={teamStyles.teamCard}>
+                      <div className="img" style={teamStyles.teamImg}>
+                        <img src="/assets/imgs/team/5.jpg" alt="" />
+                      </div>
+                      <div className="info" style={teamStyles.teamInfo}>
+                        <h5 className="mb-2">Roberto Toledo</h5>
+                        <div className="main-marq team-position">
+                          <div className="slide-har st1 non-strok">
+                            <div className="box">
+                              <div className="items">
+                                <div className="item">
+                                  <h4>Desarrollador BackEnd</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Desarrollador BackEnd</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Desarrollador BackEnd</h4>
+                                </div>
+                                <div className="item">
+                                  <h4>Desarrollador BackEnd</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
