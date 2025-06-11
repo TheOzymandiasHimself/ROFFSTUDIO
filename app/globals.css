@@ -1,0 +1,11 @@
+/* Global styles for ROFF Studio */
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+}
+
+/* Ensure box model consistency */
+* {
+  box-sizing: border-box;
+}
