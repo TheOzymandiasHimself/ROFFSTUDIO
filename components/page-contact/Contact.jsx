@@ -75,7 +75,7 @@ function Contact() {
                         id="form_email"
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Correo electrónico"
                         required="required"
                       />
                     </div>

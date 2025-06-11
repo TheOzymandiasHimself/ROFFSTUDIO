@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 
 function Skills() {
   useEffect(() => {
@@ -77,15 +78,29 @@ function Skills() {
           0% { transform: scale(1.2); opacity: 0.5; }
           100% { transform: scale(2); opacity: 0.2; }
         }
+        
+        .skill-label {
+          font-size: 10px;
+          background-color: rgba(40, 120, 200, 0.1);
+          color: #2878c8;
+          padding: 2px 6px;
+          border-radius: 10px;
+          display: inline-block;
+          margin-top: 5px;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
       `}</style>
       
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-10">
+          <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center mb-80">
+              <h6 className="sub-title main-color mb-15">Nuestras Habilidades</h6>
               <h3>
-                NUESTRO CONOCIMIENTO, <br /> <span className="opacity-7">POTENCIA TU NEGOCIO</span>
+                TECNOLOGÍAS Y HERRAMIENTAS <br /> <span className="opacity-7">QUE DOMINAMOS</span>
               </h3>
+              <p className="mt-20">Aunque somos un estudio nuevo, nuestro equipo cuenta con conocimientos actualizados en las tecnologías y metodologías más efectivas para proyectos digitales.</p>
             </div>
           </div>
         </div>
@@ -94,12 +109,12 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s1.png" alt="" />
+                  <Image src="/assets/imgs/resume/s1.png" alt="skill icon 1" width={70} height={70} />
                 </div>
                 <div className="stars-container">
                   {[1, 2, 3, 4, 5].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
@@ -112,30 +127,30 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s2.png" alt="" />
+                  <Image src="/assets/imgs/resume/s2.png" alt="skill icon 2" width={70} height={70} />
                 </div>
                 <div className="stars-container">
                   {[1, 2, 3, 4, 5].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
                 </div>
               </div>
-              <h6 className="fz-18">Desarrollo</h6>
+              <h6 className="fz-18">Desarrollo Web</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s3.png" alt="" />
+                  <Image src="/assets/imgs/resume/s3.png" alt="skill icon 3" width={70} height={70} />
                 </div>
                 <div className="stars-container">
-                  {[1, 2, 3, 4, 5].map((_, index) => (
+                  {[1, 2, 3, 4].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
@@ -148,30 +163,30 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s5.png" alt="" />
+                  <Image src="/assets/imgs/resume/s5.png" alt="skill icon 5" width={70} height={70} />
                 </div>
                 <div className="stars-container">
-                  {[1, 2, 3, 4, 5].map((_, index) => (
+                  {[1, 2, 3, 4].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
                 </div>
               </div>
-              <h6 className="fz-18">Sketch</h6>
+              <h6 className="fz-18">Figma</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s4.png" alt="" />
+                  <Image src="/assets/imgs/resume/s4.png" alt="skill icon 4" width={70} height={70} />
                 </div>
                 <div className="stars-container">
                   {[1, 2, 3, 4, 5].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
@@ -184,18 +199,18 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s6.png" alt="" />
+                  <Image src="/assets/imgs/resume/s6.png" alt="skill icon 6" width={70} height={70} />
                 </div>
                 <div className="stars-container">
-                  {[1, 2, 3, 4, 5].map((_, index) => (
+                  {[1, 2, 3, 4].map((_, index) => (
                     <div className="star-item" key={index}>
-                      <img src="/assets/imgs/estrellatransp.png" alt="estrella" className="star" />
+                      <Image src="/assets/imgs/estrellatransp.png" alt="estrella" width={28} height={28} className="star" />
                       <div className="bloom-effect"></div>
                     </div>
                   ))}
                 </div>
               </div>
-              <h6 className="fz-18">Diseño Gráfico</h6>
+              <h6 className="fz-18">Marketing Digital</h6>
             </div>
           </div>
         </div>

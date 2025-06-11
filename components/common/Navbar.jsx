@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 
 function Navbar() {
   function handleScroll() {
@@ -43,7 +44,13 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bord blur">
       <div className="container o-hidden">
         <a className="logo icon-img-100" href="#">
-          <img src="/assets/imgs/rofflogo.png" alt="logo" />
+          <Image
+            src="/assets/imgs/rofflogo.png"
+            alt="logo"
+            width={100}
+            height={100}
+            className="object-cover"
+          />
         </a>
 
         <button

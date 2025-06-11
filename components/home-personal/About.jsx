@@ -1,4 +1,5 @@
-import React from 'react';
+  import React from 'react';
+import Image from 'next/image';
 
 function About() {
   return (
@@ -11,16 +12,16 @@ function About() {
                 <iframe src="https://roff-volcano-scene.windsurf.build/" style={{ width: '100%', height: '100%', border: 'none' }} title="Animación Escena Volcán Roff"></iframe>
               </div>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon1.png" alt="" />
+                <Image src="/assets/imgs/resume/icon1.png" alt="icono 1" width={60} height={60} />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon2.png" alt="" />
+                <Image src="/assets/imgs/resume/icon2.png" alt="icono 2" width={60} height={60} />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon3.png" alt="" />
+                <Image src="/assets/imgs/resume/icon3.png" alt="icono 3" width={60} height={60} />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon4.png" alt="" />
+                <Image src="/assets/imgs/resume/icon4.png" alt="icono 4" width={60} height={60} />
               </span>
             </div>
           </div>
@@ -47,7 +48,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <Image src="/assets/imgs/arw0.png" alt="flecha" width={40} height={40} />
                           </div>
                         </div>
                       </div>
@@ -62,7 +63,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <Image src="/assets/imgs/arw0.png" alt="flecha" width={40} height={40} />
                           </div>
                         </div>
                       </div>

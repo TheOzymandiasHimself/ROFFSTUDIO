@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/rofflogo.png" alt="Roff Studio Logo" />
+              <Image src="/assets/imgs/rofflogo.png" alt="Roff Studio Logo" width={100} height={100} className="object-cover" />
             </div>
           </div>
           <div className="col-lg-4">
@@ -77,13 +78,13 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2025 ROFF Studio. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} ROFF Studio. Todos los derechos reservados.
             </p>
           </div>
         </div>
       </div>
       <div className="circle-blur">
-        <img src="/assets/imgs/patterns/blur1.png" alt="" />
+        <Image src="/assets/imgs/patterns/blur1.png" alt="" width={600} height={600} />
       </div>
     </footer>
   );

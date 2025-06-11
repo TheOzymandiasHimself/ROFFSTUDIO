@@ -29,7 +29,7 @@ function Header() {
           <div className="col-12">
             <div className="text-center">
               <h1 className="text-u ls1 fz-80">
-                Get In <span className="fw-200"> Touch</span>
+                Ponte en <span className="fw-200">Contacto</span>
               </h1>
             </div>
           </div>
